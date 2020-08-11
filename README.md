@@ -10,8 +10,6 @@ This codebase was created to demonstrate a client application built with **React
 
 ## Getting started
 
-### Install PostgreSQL
-
 ### Install Node.js (10.0.0)
 
 
