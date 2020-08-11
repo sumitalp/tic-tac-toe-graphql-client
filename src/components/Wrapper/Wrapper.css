@@ -1,0 +1,25 @@
+.root {
+    padding: 6px;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.top > * {
+    margin-right: 6px;
+}
+
+.heading {
+    margin: 6px 6px 6px 0;
+}
+
+.button {
+    composes: button from "../../pages/Home/Home.css";
+}
+
+.turnInfo > span {
+    margin-right: 6px;
+}

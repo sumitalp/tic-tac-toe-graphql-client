@@ -1,0 +1,17 @@
+mutation newGame {
+    newGame {
+        id
+        gridItems {
+            id
+            player {
+                id,
+                symbol
+            }
+        }
+        currentPlayer {
+            id
+            symbol
+        }
+        isFinished
+    }
+}

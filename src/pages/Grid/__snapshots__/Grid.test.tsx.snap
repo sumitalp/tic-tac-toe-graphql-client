@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridPage should render 1`] = `
+<Component
+  controllingPlayer={
+    Object {
+      "symbol": "CROSS",
+    }
+  }
+  gameUrl="http://localhost/"
+>
+  <Grid
+    controllingPlayer={
+      Object {
+        "symbol": "CROSS",
+      }
+    }
+    gameUrls={
+      Object {
+        "CROSS": "",
+        "NAUGHT": "",
+      }
+    }
+    isDraw={false}
+    subscribeToGridUpdates={[MockFunction]}
+    winner={null}
+  />
+</Component>
+`;

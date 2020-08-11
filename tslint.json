@@ -1,0 +1,12 @@
+{
+    "extends": ["tslint:latest", "tslint-config-prettier", "tslint-react"],
+    "linterOptions": {
+        "exclude": ["dist/**/*", "coverage/**/*", "node_modules/**/*.ts"]
+    },
+    "rules": {
+        "jsx-no-multiline-js": false,
+        "jsx-wrap-multiline": false,
+        "jsx-no-lambda": false,
+        "no-submodule-imports": [true, "react-apollo"]
+    }
+}

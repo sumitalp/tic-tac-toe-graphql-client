@@ -1,0 +1,49 @@
+:root {
+    --border-color: black;
+    --cross-color: black;
+    --naught-color: black;
+    --finished-color: #69656a;
+}
+
+.root {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex: 1;
+    border: 1px solid var(--border-color);
+    font-size: 150px;
+    height: 29vh;
+}
+
+.finished {
+    border-color: var(--finished-color);
+}
+
+.cross {
+    color: var(--cross-color);
+}
+
+.cross.finished {
+    color: var(--finished-color);
+}
+
+.naught {
+    color: var(--naught-color);
+}
+
+.naught.finished {
+    color: var(--finished-color);
+}
+
+.top {
+    border-top: none;
+}
+.bottom {
+    border-bottom: none;
+}
+.left {
+    border-left: none;
+}
+.right {
+    border-right: none;
+}

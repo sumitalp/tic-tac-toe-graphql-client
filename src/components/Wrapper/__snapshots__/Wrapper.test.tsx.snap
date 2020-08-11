@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wrapper should render 1`] = `
+<div
+  className="root"
+>
+  <div>
+    <div
+      className="top"
+    >
+      <h1
+        className="heading"
+      >
+        Tic Tac Toe
+      </h1>
+      <Link
+        to="/"
+      >
+        <Button
+          className="button"
+          size="small"
+        >
+          Home
+        </Button>
+      </Link>
+      <GridControls />
+    </div>
+    <div
+      className="turnInfo"
+    >
+      <span>
+        You:
+         
+        X
+      </span>
+      <span>
+        Turn: 
+        X
+      </span>
+    </div>
+  </div>
+  <div>
+    <div>
+      Test
+    </div>
+  </div>
+</div>
+`;

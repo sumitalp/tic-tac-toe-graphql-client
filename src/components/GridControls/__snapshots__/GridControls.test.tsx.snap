@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridControls should render for multiplayer 1`] = `
+<div
+  className="root"
+/>
+`;
+
+exports[`GridControls should render for single player 1`] = `
+<div
+  className="root"
+/>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render 1`] = `
+<div
+  className="root"
+>
+  <div>
+    <h1
+      className="heading"
+    >
+      Tic Tac Toe
+    </h1>
+  </div>
+  <div>
+    <div
+      className="buttonContainer"
+    >
+      <Button
+        className="button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        New Game
+      </Button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home should render loading indicator 1`] = `
+<div
+  className="root"
+>
+  <div>
+    <h1
+      className="heading glow"
+    >
+      Tic Tac Toe
+    </h1>
+  </div>
+  <div>
+    <div
+      className="buttonContainer"
+    >
+      <Button
+        className="button"
+        disabled={true}
+        onClick={[Function]}
+      >
+        New Game
+      </Button>
+    </div>
+  </div>
+</div>
+`;

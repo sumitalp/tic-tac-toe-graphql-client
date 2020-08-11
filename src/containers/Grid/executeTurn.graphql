@@ -1,0 +1,21 @@
+mutation executeTurn($id: ID!, $playerId: ID!, $x: Int!, $y: Int!) {
+    executeTurn(id: $id, playerId: $playerId, x: $x, y: $y) {
+        id
+        gridItems {
+            id
+            player {
+                id
+                symbol
+            }
+        }
+        currentPlayer {
+            id
+            symbol
+        }
+        winner {
+            id
+            symbol
+        }
+        isFinished
+    }
+}
