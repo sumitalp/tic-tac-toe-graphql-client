@@ -7,6 +7,10 @@
   "scripts": {
     "generate-types": "gql-gen --schema http://localhost:4000/graphql --template graphql-codegen-typescript-template --out ./typings/ \"./src/**/*.ts\"",
     "dev": "parcel serve --log-level 3 -p 3001 public/index.html",
+    "start": "serve -s -n -l 5000",
+    "start:prod": "serve -s -n -l 5000",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build --public-url / public/index.html",
     "test": "jest",
     "lint": "tslint -t codeFrame -p ."
   },
